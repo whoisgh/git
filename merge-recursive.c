@@ -25,7 +25,7 @@
 #include "submodule.h"
 
 struct path_hashmap_entry {
-	struct hashmap_entry;
+	struct hashmap_entry e;
 	char path[FLEX_ARRAY];
 };
 
